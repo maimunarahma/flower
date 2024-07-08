@@ -1,0 +1,157 @@
+  .banner1{
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(229, 84, 115, 0.1);
+  }
+  .content1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 240px;
+  }
+  .content1 h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .content1 p{
+  color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .content1 button{
+  border-radius: 8px;
+
+background: rgb(229, 84, 115);
+position: relative;
+width: 177px;
+height: 64px;
+  }
+  .wallpaper{
+    width: 635px;
+    height: 800px;
+    margin-right: 240px ;
+  }
+    .banner2{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2px;
+        margin: 0 auto;
+        margin-left: 240px;
+            margin-right: 240px;
+            padding: 40px 40px 40px 40px;
+
+    }
+     .card1 img, .card2 img ,card3 img{
+        width: 33%;
+        width: 464px;
+        height: 538px;
+        margin: 0 auto;
+        border-radius: 40% 40% 0 0;
+     }
+     .card1 img{
+        background: rgba(167, 33, 98, 0.15);
+     }
+     .card2 img{
+background: rgba(5, 151, 160, 0.15);
+     }
+     .card3 img{
+        background: (71, 125, 17, 0.15)
+     }
+
+     /* banner4 */
+       .banner4{
+        width: 1440px;
+        height: 320px;
+        margin: 0 auto;
+        padding: 86px 175px 86px 175px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(39, 39, 39, 0.05);
+       }
+
+       /* banner5 */
+         .banner5{
+            margin: 0 auto;
+            padding: 100px 430px 100px 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(229, 84, 115, 0.05);
+            width: 1922px;
+            height: 620px;
+         }
+         .content5{
+            width: 50%;
+            width: 594px;
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+         }
+         
+          .banner6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .gallery{
+            margin: 0 auto;
+            margin-left: 240px;
+            margin-right: 240px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 24px;
+            opacity: 1;
+            padding: 40px 40px 40px 40px
+          }
+          .banner7{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../Flower Asset/Rectangle 9.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1440px;
+            height: 450px;
+            margin: 0 auto;
+          }
+
+          .footer{
+            background-color: black;
+            color: white;
+            width: 1922px;
+            height: 450px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
